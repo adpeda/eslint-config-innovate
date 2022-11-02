@@ -1,0 +1,26 @@
+{
+  "name": "@adpeda/eslint-config",
+  "version": "1.0.0",
+  "description": "eslint rules for innovatetech projects",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adpeda/eslint-config-innovate"
+  },
+  "keywords": [
+    "innovate",
+    "lint",
+    "eslint"
+  ],
+  "author": "",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "@babel/eslint-parser": ">= 7",
+    "eslint": ">= 8"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "pre-commit": [],
+  "main": "./index.js",
+  "license": "Apache-2.0"
+}
