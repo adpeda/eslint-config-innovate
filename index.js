@@ -172,7 +172,7 @@ module.exports = {
         'id-match': 0,
         'indent': [
             'error',
-            4,
+            2,
             {
                 'CallExpression': {
                     arguments: 'off'
