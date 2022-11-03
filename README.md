@@ -1,4 +1,4 @@
-# eslint-config-adpeda
+# eslint-config-innovate
 
 A shareable eslint config for Innovatetech's projects.
 
@@ -11,7 +11,7 @@ npm install --save-dev adpeda/eslint-config
 ### Installing peerDependencies
 
 ```bash
-npm install --save-dev babel-eslint eslint-plugin-import
+npm install --save-dev eslint-plugin-import eslint-config-standard eslint-plugin-promise eslint-plugin-n
 ```
 
 ## Usage
@@ -44,7 +44,7 @@ npm install --save-dev eslint-plugin-jsdoc
 If you are using `react`.
 
 ```bash
-npm install --save-dev eslint-plugin-react
+npm install --save-dev babel-eslint eslint-plugin-react
 ```
 
 ```
@@ -67,6 +67,21 @@ If you are using `typescript`:
   'extends': [
     '@adpeda/eslint-config',
     '@adpeda/eslint-config/typescript'
+  ]
+}
+```
+
+If you want to enforce `prettier` rules used by adpeda.
+
+```bash
+npm install --save-dev prettier eslint-plugin-prettier
+```
+
+```
+{
+  'extends': [
+    '@adpeda/eslint-config',
+    '@adpeda/eslint-config/prettier'
   ]
 }
 ```

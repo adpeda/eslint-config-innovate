@@ -3,9 +3,10 @@ module.exports = {
         'browser': true,
         'commonjs': true,
         'es6': true,
-        'jasmine': true
+        'es2021': true
     },
     'extends': [
+        'standard',
         'eslint:recommended'
     ],
     'globals': {
@@ -15,7 +16,6 @@ module.exports = {
         // files.
         '__filename': false
     },
-    'parser': '@babel/eslint-parser',
     'parserOptions': {
         'sourceType': 'module'
     },
